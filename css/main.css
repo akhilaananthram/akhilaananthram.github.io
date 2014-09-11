@@ -1,0 +1,20 @@
+article section {
+    width: 800px;
+}
+
+#blurb {
+    margin-top: 40px;
+    overflow: hidden;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+}
+
+#blurb img {
+    display: block;
+    float: left;
+    margin-left: 75px;
+    width: auto;
+    height: 150px;
+    border: 5;
+}
