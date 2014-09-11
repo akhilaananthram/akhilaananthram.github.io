@@ -1,0 +1,9 @@
+Good rationale! Good ideas for your other pages on the site. You can find some really simple social media icons on http://iconmonstr.com/ 
+
+For the resume, I personally did a resume page and displayed certain parts of my resume on the page and included a link to the pdf, but either way works. 
+
+I like how you put something fun/interesting about yourself, but I don't know if I would put it on it's own separate page. 
+
+Good file structure (keeping css in it's own folder), lots of potential! Keep up the good work!
+
+5/5

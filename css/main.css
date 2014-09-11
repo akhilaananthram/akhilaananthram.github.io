@@ -5,7 +5,6 @@ article section {
 #blurb {
     margin-top: 40px;
     overflow: hidden;
-    display: -webkit-flex;
     align-items: center;
 }
 
