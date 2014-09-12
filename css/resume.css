@@ -1,0 +1,52 @@
+#category {
+	color: #00005C;
+	font-weight: bold;
+    font-size: 50px;
+}
+
+#courseID {
+	color: #00005C;
+	font-weight: bold;
+}
+
+#company {
+	font-style: italic;
+}
+
+#job1 {
+	margin-bottom: 50px;
+	margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#job1 img {
+    display: block;
+    float: left; 
+    width: auto;
+    height: 100px;
+}
+
+#job1 h3 {
+	font-weight: bold;
+}
+
+#job2 {
+	margin-bottom: 50px;
+	margin-top: 50px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#job2 img {
+    display: block;
+    float: right; 
+    width: auto;
+    height: 100px;
+}
+
+#job2 h3 {
+	font-weight: bold;
+}

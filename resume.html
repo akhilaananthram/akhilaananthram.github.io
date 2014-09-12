@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Akhila Ananthram's Personal Website</title>
+  <title>Akhila Ananthram</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/resume.css">
   <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
 </head>
@@ -14,40 +15,101 @@
 <hr>
 <ul id="nav">
   <li><h2><a href="./resume.html">Resume</a></h2></li>
-  <li><h2><a href="./tv.html">TV Shows</a></h2></li>
   <li><h2><a href="./projects.html">Projects</a></h2></li>
+  <li><h2><a href="./tv.html">TV Shows</a></h2></li>
 </ul>
 </header>
 <div id="contentArea">
-<section>
-  <h2>Resume</h2>
 
-  <h3>Professional Experience</h3>
-  <dl>
-      <dt><strong>Artificial Intelligence Intern at <em>Blackbird Technologies</em></strong></dt>
-          <dd>Worked on detecting the dominant color in an image, using decision trees and support vector machines</dd>
-          <dd>Implemented a spatial pyramid to improve image classification</dd>
-          <dd>Implemented soft k-means to handle ambiguity between the classes</dd>
-          <dd>Created an autocropper to crop rotated images</dd>
-          <dd>Incorported PCA in the pipeline to reduce the dimension of the feature vectors</dd>
-          <dd>Created a parts of speech tagger to identify the title, using NLTK</dd>
-          <dd>Modified the hashing function to account for the bias caused by hashing collisions</dd>
-          <dd>Annotated images</dd>
-          <dd>Tested the classifiers</dd>
-      <dt><strong>Course Assistant for Calculus</strong></dt>
-          <dd>Graded homework</dd>
-          <dd>Held study sessions and helped students with their class work</dd>
-      <dt><strong>iOS Programming Intern at <em>Ancient Wisdom Productions</em></strong><dt>
-          <dd>Added new features to a prexisting application, <a href="http://pictionapp.com">Piction</a><dd>
-      <dt><strong>Software Engineering Intern at <em>Anthrotronix, Inc</em></strong></dt>
-          <dd>Software testing</dd>
-          <dd>Researched and did basic Android programming</dd>
-          <dd>Worked with Matlab for data analysis</dd>
-          <dd>Used Python and OpenCV for object detection</dd>
-          <dd>Made a game called Tap Tap Rehabilitation for a Maker's Fair</dd>
-          <dd>Made a version of Tetris using Processing for the Makey Makey</dd>
-  </dl>
-</section>
+  <h2 id="category">Professional Experience</h2>
+
+  <div id="job1">
+  <img src="img/blackbird.png" alt="Blackbird" style="border: 2px solid">
+  <h3>Artificial Intelligence Intern at <span id="company">Blackbird Technologies</span></h3>
+  <p>Worked on detecting the dominant color in an image, using decision trees and support vector machines</p>
+  <p>Implemented a spatial pyramid to improve image classification</p>
+  <p>Implemented soft k-means to handle ambiguity between the classes</p>
+  <p>Created an autocropper to crop rotated images</p>
+  <p>Incorported PCA in the pipeline to reduce the dimension of the feature vectors</p>
+  <p>Created a parts of speech tagger to identify the title, using NLTK</p>
+  <p>Modified the hashing function to account for the bias caused by hashing collisions</p>
+  <p>Annotated images</p>
+  <p>Tested the classifiers</p>
+  <br>
+  </div>
+
+  <div id="job2">
+  <img src="img/cornell.gif" alt="Cornell">
+  <h3>Course Assistant for Calculus</h3>
+  <p>Graded homework</p>
+  <p>Held study sessions and helped students with their class work</p>
+  <br>
+  </div>
+
+  <div id="job1">
+  <img src="img/awp.png" alt="AWP">
+  <h3>iOS Programming Intern at <span id="company">Ancient Wisdom Productions</span></h3>
+  <p>Added new features to a prexisting application, <a href="http://pictionapp.com">Piction</a></p>
+  <br>
+  </div>
+
+  <div id="job2">
+  <img src="img/anthrotronix.jpg" alt="Anthrotronix">
+  <h3>Software Engineering Intern at <span id="company">Anthrotronix, Inc</span></h3>
+  <p>Software testing</p>
+  <p>Researched and did basic Android programming</p>
+  <p>Worked with Matlab for data analysis</p>
+  <p>Used Python and OpenCV for object detection</p>
+  <p>Made a game called Tap Tap Rehabilitation for a Maker's Fair</p>
+  <p>Made a version of Tetris using Processing for the Makey Makey</p>
+  <br>
+  </div>
+
+  <h2 id="category">Relevant Coursework</h2>
+  <h3><strong>Computer Science Courses</strong></h3>
+  <p><span id="courseID">INFO 1300</span> - Introductory Design and Programming for the Web (HTML & CSS)</p>
+  <p><span id="courseID">CS 4300</span> - Information Retrieval</p>
+  <p><span id="courseID">CS 4410</span> - Operating Systems</p>
+  <p><span id="courseID">CS 4780</span> - Machine Learning (Python)</p>
+  <p><span id="courseID">CS 4701</span> - Practicum in Artificial Intelligence</p>
+  <p><span id="courseID">CS 4700</span> - Foundations of Artificial Intelligence</p>
+  <p><span id="courseID">CS 2043</span> - Unix Tools and Scripting (Bash Scripts)</p>
+  <p><span id="courseID">CS 3410</span> - Computer System Organization and Programming (C)</p>
+  <p><span id="courseID">CS 2024</span> - C++ Programming (C++)</p>
+  <p><span id="courseID">CS 3110</span> - Data Structures and Functional Programming (Ocaml)</p>
+  <p><span id="courseID">CS 4670</span> - Introduction to Computer Vision (C++)</p>
+  <p><span id="courseID">CS 2800</span> - Discrete Structures</p>
+  <p><span id="courseID">CS 2048</span> - Introduction to iPhone Application Development (Objective C)</p>
+  <p><span id="courseID">CS 2110</span> - Object Oriented Programming and Data Structures (Java)</p>
+  <p><span id="courseID">CS 1110</span> - Introduction to Computer Programming with Python (Python)</p>
+  <p>In high school, I took AP Computer Science (Java)</p>
+  <br>
+
+  <h3><strong>Math Courses</strong></h3>
+  <p><span id="courseID">CS 4850</span> - Mathematical Foundations for the Information Age</p>
+  <p><span id="courseID">MATH 3360</span> - Applicable Algebra</p>
+  <p><span id="courseID">MATH 4130</span> - Honors Introduction to Analysis I</p>
+  <p><span id="courseID">MATH 4370</span> - Computational Algebra</p>
+  <p><span id="courseID">MATH 4550</span> - Applicable Geometry</p>
+  <p><span id="courseID">MATH 2940</span> - Linear Algebra</p>
+  <p>In high school, I took AP Calculus BC and Multivariable calculus</p>
+  <br>
+
+  <h3><strong>Linguistics Courses</strong></h3>
+  <p><span id="courseID">LING 1101</span> - Introduction to Linguistics</p>
+  <p><span id="courseID">LING 4485</span> - Topics in Computational Linguistics (Matlab & Python)</p>
+  <br>
 </div>
+
+<div id="contact">
+<ul>
+<li><a href="mailto:asa225@cornell.edu"><img src="img/email.png" alt="Email"></a></li>
+<li><a href="https://github.com/akhilaananthram"><img src="img/github.png" alt="Github"></a></li>
+<li><a href="https://www.linkedin.com/pub/akhila-ananthram/5a/574/3a2"><img src="img/linkedin.png" alt="LinkedIn"></a></li>
+<li><a href="files/CV.pdf"><img src="img/resume.png" alt="Resume"></a></li>
+<li><a href="tel:+1-571-379-2379"><img src="img/phone.png" alt="Phone"></a></li>
+</ul>
+</div>
+
 </body>
 </html>

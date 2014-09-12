@@ -5,13 +5,14 @@
 }
 
 body {
-		background-image:url(../img/background.png);
+	background-image:url(../img/background.png);
 }
+
 header {
     /*background-image: url(../img/header.png);*/
-    background-color: #222222;
+    background-color: #00005C;
     margin-bottom: 10px;
-    padding: 20px;
+    padding: 45px;
 }
 
 a {
@@ -21,14 +22,15 @@ a {
 
 #vanity a {
   font-family: 'Ubuntu', sans-serif;
-  text-decoration:none;
-  color: #CC0000;
+  text-decoration: none;
+  color: #FFFFFF;
   text-align:left;
-  font-size: 1.5em;
+  font-size: 2.7em;
 }
 
 #nav {
 	margin-top: 20px;
+	text-align: center;
 }
 
 #nav li{
@@ -39,17 +41,8 @@ a {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-
 #nav li:hover{
-	color: #C2250A;
-}
-
-h1 {
-	text-align:left;
-}
-
-#nav{
-	text-align: center;
+	color: #999999;
 }
 
 #nav a {
@@ -65,9 +58,25 @@ hr {
     text-align: center;
 }
 
-
 #contentArea{
 	font-family: 'Roboto Slab', serif;
 	margin-left: 75px;
 	margin-top: 20px;
+}
+
+#contact{
+  background-color: #00005C;
+  text-align: center;
+}
+
+#contact li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#contact img{
+	height: 30px;
+	width: 30px;
+	padding: 10px;
 }

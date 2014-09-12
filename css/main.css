@@ -1,33 +1,26 @@
-article section {
-    width: 800px;
-}
-
 #blurb {
-    margin-top: 40px;
+    margin-top: 20px;
     overflow: hidden;
-    align-items: center;
+    font-family: 'Roboto Slab', serif;
 }
 
 #blurb img {
     display: block;
     float: left; 
-    margin-left: 75px;
+    margin: 75px;
     width: auto;
     height: 150px;
     border: 2px solid;
-
 }
 
 #blurb p {
+    margin-top: 75px;
     margin-left: 250px;
+    margin-right: 100px;
 
 }
 
-#contact {
-    margin-left: 75px;
-    margin-top: 10px;
-}
-
-#main {
-     font-family: 'Roboto Slab', serif;
+#interest {
+    color: #00005C;
+    font-weight: bold;
 }
