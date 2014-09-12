@@ -10,9 +10,24 @@ article section {
 
 #blurb img {
     display: block;
-    float: left;
+    float: left; 
     margin-left: 75px;
     width: auto;
     height: 150px;
     border: 2px solid;
+
+}
+
+#blurb p {
+    margin-left: 250px;
+
+}
+
+#contact {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#main {
+     font-family: 'Roboto Slab', serif;
 }
