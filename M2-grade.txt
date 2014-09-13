@@ -1,7 +1,0 @@
-Good file structure! Very organized. I would keep the files in the src folder inside P1M2 with index.html. Generally you keep all your .html files together.
-
-For formatting resume, I always like to look for inspiration and other examples online. I like to look at Human Computer Interaction student pages on Carnegie Melon's site. (http://www.hcii.cmu.edu/people/hci-undergraduates) I would emphasize what school activities you are involved in, past internships, and relevant classes on your resume page. You seem to have a clear focus of what you want your site to look like! 
-
-For your site, I would distinguish the block of your name from the links, to make them two different colors, or at least show a break/white space between the two parts because I wouldn't know that I could click your name. Your HTML code seems fine and organized! It's a good idea to have a common css that you can apply for all pages, and then additional styles for certain pages like in main.css. Nice job with your validation for your HTML pages! I would start thinking more about the styling of your page now! 
-
-5/5
