@@ -14,11 +14,10 @@
 }
 
 #job1 {
-	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-top: 70px;
     margin-left: 100px;
     margin-right: 100px;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 #job1 img {
@@ -26,18 +25,19 @@
     float: left; 
     width: auto;
     height: 100px;
+    margin: 10px;
 }
 
 #job1 h3 {
 	font-weight: bold;
+    margin-top: 10px;
 }
 
 #job2 {
-	margin-bottom: 50px;
-	margin-top: 50px;
-    text-align: center;
+    margin-top: 70px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 20px;
 }
 
 #job2 img {
@@ -45,8 +45,10 @@
     float: right; 
     width: auto;
     height: 100px;
+    margin: 10px;
 }
 
 #job2 h3 {
 	font-weight: bold;
+    margin-top: 10px;
 }
