@@ -5,24 +5,25 @@
 }
 
 #company {
-	font-size: 30px;
+	font-size: 32px;
     margin-top: 10px;
 }
 
 #position {
     font-weight: bold;
     color: #00005C;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #time {
+    font-style: italic;
 }
 
 #job1 {
-	margin-top: 70px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 20px;
+	padding-top: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
@@ -35,10 +36,10 @@
 }
 
 #job2 {
-    margin-top: 70px;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 20px;
     text-align: justify;
 }
 
@@ -48,6 +49,11 @@
     width: auto;
     height: 100px;
     margin: 10px;
+}
+
+#subject {
+    font-size: 32px;
+    margin-top: 10px;
 }
 
 #courseID {
