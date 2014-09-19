@@ -1,62 +1,104 @@
-#category {
+.category {
 	color: #00005C;
 	font-weight: bold;
     font-size: 50px;
 }
 
-#company {
+.company {
 	font-size: 32px;
     margin-top: 10px;
+    color: #000000;
 }
 
-#position {
+.position {
     font-weight: bold;
     color: #00005C;
     font-size: 25px;
 }
 
-#time {
+.time {
     font-style: italic;
+    color: #000000;
 }
 
-#job1 {
+.job1 {
 	padding-top: 20px;
     padding-left: 75px;
     padding-right: 75px;
     padding-bottom: 20px;
-    text-align: justify;
+    text-align: left;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555555;
 }
 
-#job1 img {
+.job1 img {
     display: block;
     float: left; 
     width: auto;
     height: 100px;
+    max-width: 200px;
+    max-height: 100px;
     margin: 10px;
+    margin-bottom: 200px;
 }
 
-#job2 {
+.job2 {
     padding-top: 20px;
     padding-left: 75px;
     padding-right: 75px;
     padding-bottom: 20px;
-    text-align: justify;
+    text-align: right;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: #444444;
 }
 
-#job2 img {
+.job2 img {
     display: block;
     float: right; 
     width: auto;
-    height: 100px;
+    height: auto;
+    max-width: 200px;
+    max-height: 100px;
     margin: 10px;
+    margin-bottom: 200px;
 }
 
-#subject {
+.subject {
     font-size: 32px;
     margin-top: 10px;
+    color: #000000;
 }
 
-#courseID {
+.group3 {
+    width: 31.5%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #444444;
+}
+
+.group2 {
+    width: 50%;
+    float: left;
+    color: #444444;
+}
+
+.group1 {
+    color: #444444;
+}
+
+.year {
+    color: #00005C;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+.courseID {
     color: #00005C;
     font-weight: bold;
 }

@@ -15,20 +15,20 @@
 <hr>
 <ul id="nav">
   <li><h2><a href="./index.html">About Me</a></h2></li>
-  <li><h2><a href="./experience.html">Experience</a></h2></li>
+  <li><h2><a href="./experience.html" class="selected">Experience</a></h2></li>
   <li><h2><a href="./projects.html">Projects</a></h2></li>
   <li><h2><a href="./tv.html">TV Shows</a></h2></li>
 </ul>
 </header>
 <div id="contentArea">
 
-  <h2 id="category">Professional Experience</h2>
+  <h2 class="category">Professional Experience</h2>
 
-  <div id="job1">
+  <div class="job1">
   <img src="img/blackbird.png" alt="Blackbird" style="border: 2px solid">
-  <h3 id="company">Blackbird Technologies</h3>
-  <h4 id="position">Artificial Intelligence Intern</h4>
-  <h4 id="time">May 2014 – August 2014</h4>
+  <h3 class="company">Blackbird Technologies</h3>
+  <h4 class="position">Artificial Intelligence Intern</h4>
+  <h4 class="time">May 2014 – August 2014</h4>
   <p>Worked on detecting the dominant color in an image, using decision trees and support vector machines<br>
   Implemented a spatial pyramid to improve image classification<br>
   Implemented soft k-means to handle ambiguity between the classes<br>
@@ -41,30 +41,30 @@
   <br>
   </div>
 
-  <div id="job2">
+  <div class="job2">
   <img src="img/cornell.gif" alt="Cornell">
-  <h3 id="company">Cornell University</h3>
-  <h4 id="position">Calculus Course Assistant</h4>
-  <h4 id="time">August 2013 – December 2013</h4>
+  <h3 class="company">Cornell University</h3>
+  <h4 class="position">Calculus Course Assistant</h4>
+  <h4 class="time">August 2013 – December 2013</h4>
   <p>Graded homework<br>
   Held study sessions and helped students with their class work</p>
   <br>
   </div>
 
-  <div id="job1">
+  <div class="job1">
   <img src="img/awp.png" alt="AWP">
-  <h3 id="company">Ancient Wisdom Productions</h3>
-  <h4 id="position">iOS Programming Intern</h4>
-  <h4 id="time">April 2013 – December 2013</h4>
+  <h3 class="company">Ancient Wisdom Productions</h3>
+  <h4 class="position">iOS Programming Intern</h4>
+  <h4 class="time">April 2013 – December 2013</h4>
   <p>Added new features to a prexisting application, <a href="http://pictionapp.com">Piction</a></p>
   <br>
   </div>
 
-  <div id="job2">
+  <div class="job2">
   <img src="img/anthrotronix.jpg" alt="Anthrotronix">
-  <h3 id="company">Anthrotronix, Inc</h3>
-  <h4 id="position">Software Engineering Intern</h4>
-  <h4 id="time">May 2013 – August 2013</h4>
+  <h3 class="company">Anthrotronix, Inc</h3>
+  <h4 class="position">Software Engineering Intern</h4>
+  <h4 class="time">May 2013 – August 2013</h4>
   <p>Software testing<br>
   Researched and did basic Android programming<br>
   Worked with Matlab for data analysis<br>
@@ -74,39 +74,62 @@
   <br>
   </div>
 
-  <h2 id="category">Relevant Coursework</h2>
-  <h3 id="subject">Computer Science Courses</h3>
-  <p><span id="courseID">INFO 1300</span> - Introductory Design and Programming for the Web (HTML &amp; CSS)</p>
-  <p><span id="courseID">CS 4300</span> - Information Retrieval</p>
-  <p><span id="courseID">CS 4410</span> - Operating Systems (Python)</p>
-  <p><span id="courseID">CS 4780</span> - Machine Learning (Python)</p>
-  <p><span id="courseID">CS 4701</span> - Practicum in Artificial Intelligence</p>
-  <p><span id="courseID">CS 4700</span> - Foundations of Artificial Intelligence</p>
-  <p><span id="courseID">CS 2043</span> - Unix Tools and Scripting (Bash Scripts)</p>
-  <p><span id="courseID">CS 3410</span> - Computer System Organization and Programming (C)</p>
-  <p><span id="courseID">CS 2024</span> - C++ Programming (C++)</p>
-  <p><span id="courseID">CS 3110</span> - Data Structures and Functional Programming (Ocaml)</p>
-  <p><span id="courseID">CS 4670</span> - Introduction to Computer Vision (C++)</p>
-  <p><span id="courseID">CS 2800</span> - Discrete Structures</p>
-  <p><span id="courseID">CS 2048</span> - Introduction to iPhone Application Development (Objective C)</p>
-  <p><span id="courseID">CS 2110</span> - Object Oriented Programming and Data Structures (Java)</p>
-  <p><span id="courseID">CS 1110</span> - Introduction to Computer Programming with Python (Python)</p>
+  <h2 class="category">Relevant Coursework</h2>
+  <h3 class="subject">Computer Science Courses</h3>
+  <div class="group3">
+  <h4 class="year">Junior Year</h4>
+  <p><span class="courseID">INFO 1300</span> - Introductory Design and Programming for the Web (HTML &amp; CSS)</p>
+  <p><span class="courseID">CS 4300</span> - Information Retrieval</p>
+  <p><span class="courseID">CS 4410</span> - Operating Systems (Python)</p>
+  <p><span class="courseID">CS 4780</span> - Machine Learning (Python)</p>
+  <p><span class="courseID">CS 4701</span> - Practicum in Artificial Intelligence</p>
+  <p><span class="courseID">CS 4700</span> - Foundations of Artificial Intelligence</p>
+  </div>
+
+  <div class="group3">
+  <h4 class="year">Sophomore Year</h4>
+  <p><span class="courseID">CS 2043</span> - Unix Tools and Scripting (Bash Scripts)</p>
+  <p><span class="courseID">CS 3410</span> - Computer System Organization and Programming (C)</p>
+  <p><span class="courseID">CS 2024</span> - C++ Programming (C++)</p>
+  <p><span class="courseID">CS 3110</span> - Data Structures and Functional Programming (Ocaml)</p>
+  <p><span class="courseID">CS 4670</span> - Introduction to Computer Vision (C++)</p>
+  </div>
+
+  <div class="group3">
+  <h4 class="year">Freshman Year and HS</h4>
+  <p><span class="courseID">CS 2800</span> - Discrete Structures</p>
+  <p><span class="courseID">CS 2048</span> - Introduction to iPhone Application Development (Objective C)</p>
+  <p><span class="courseID">CS 2110</span> - Object Oriented Programming and Data Structures (Java)</p>
+  <p><span class="courseID">CS 1110</span> - Introduction to Computer Programming with Python (Python)</p>
+
+  <br>
   <p>In high school, I took AP Computer Science (Java)</p>
   <br>
+  </div>
 
-  <h3 id="subject">Math Courses</h3>
-  <p><span id="courseID">CS 4850</span> - Mathematical Foundations for the Information Age</p>
-  <p><span id="courseID">MATH 3360</span> - Applicable Algebra</p>
-  <p><span id="courseID">MATH 4130</span> - Honors Introduction to Analysis I</p>
-  <p><span id="courseID">MATH 4370</span> - Computational Algebra</p>
-  <p><span id="courseID">MATH 4550</span> - Applicable Geometry</p>
-  <p><span id="courseID">MATH 2940</span> - Linear Algebra</p>
+  <h3 class="subject">Math Courses</h3>
+  <div class="group2">
+  <h4 class="year">Sophomore Year</h4>
+  <p><span class="courseID">CS 4850</span> - Mathematical Foundations for the Information Age</p>
+  <p><span class="courseID">MATH 3360</span> - Applicable Algebra</p>
+  <p><span class="courseID">MATH 4130</span> - Honors Introduction to Analysis I</p>
+  </div>
+
+  <div class="group2">
+  <h4 class="year">Freshman Year and HS</h4>
+  <p><span class="courseID">MATH 4370</span> - Computational Algebra</p>
+  <p><span class="courseID">MATH 4550</span> - Applicable Geometry</p>
+  <p><span class="courseID">MATH 2940</span> - Linear Algebra</p>
+  <br>
   <p>In high school, I took AP Calculus BC and Multivariable calculus</p>
   <br>
+  </div>
 
-  <h3 id="subject">Linguistics Courses</h3>
-  <p><span id="courseID">LING 1101</span> - Introduction to Linguistics</p>
-  <p><span id="courseID">LING 4485</span> - Topics in Computational Linguistics (Matlab &amp; Python)</p>
+  <h3 class="subject">Linguistics Courses</h3>
+  <div class="group1">
+  <p><span class="courseID">LING 1101</span> - Introduction to Linguistics</p>
+  <p><span class="courseID">LING 4485</span> - Topics in Computational Linguistics (Matlab &amp; Python)</p>
+  </div>
   <br>
 </div>
 

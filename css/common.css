@@ -45,6 +45,10 @@ a {
 	color: #999999;
 }
 
+#nav .selected {
+	color: #999999;
+}
+
 #nav a {
 	color: inherit;
 	text-decoration: none;
