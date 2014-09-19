@@ -23,8 +23,7 @@
 
 .job1 {
 	padding-top: 20px;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 150px;
     padding-bottom: 20px;
     text-align: left;
     width: auto;
@@ -41,13 +40,13 @@
     max-width: 200px;
     max-height: 100px;
     margin: 10px;
-    margin-bottom: 200px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .job2 {
     padding-top: 20px;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-right: 150px;
     padding-bottom: 20px;
     text-align: right;
     width: auto;
@@ -64,7 +63,8 @@
     max-width: 200px;
     max-height: 100px;
     margin: 10px;
-    margin-bottom: 200px;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 
 .divider {
