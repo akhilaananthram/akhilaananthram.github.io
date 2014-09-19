@@ -67,6 +67,15 @@
     margin-bottom: 200px;
 }
 
+.divider {
+    padding: 0;
+    border-top: solid #00005C;
+    color: #00005C;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
 .subject {
     font-size: 32px;
     margin-top: 10px;
