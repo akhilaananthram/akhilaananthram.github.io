@@ -77,6 +77,10 @@
 }
 
 .subject {
+    
+}
+
+.subject h3 {
     font-size: 32px;
     margin-top: 10px;
     color: #000000;
