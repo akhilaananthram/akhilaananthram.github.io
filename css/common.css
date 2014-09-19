@@ -94,3 +94,15 @@ hr {
 	width: 30px;
 	padding: 10px;
 }
+
+.category {
+	color: #00005C;
+	font-weight: bold;
+    font-size: 50px;
+}
+
+.subcategory {
+	font-size: 32px;
+    margin-top: 10px;
+    color: #000000;
+}
