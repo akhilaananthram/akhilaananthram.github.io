@@ -83,6 +83,7 @@ hr {
   text-align: center;
   opacity: 0.87;
   height:  50px;
+  clear:both;
 }
 
 .contact li{
