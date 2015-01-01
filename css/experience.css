@@ -70,6 +70,7 @@
 
 .subject {
     min-height: 200px;
+    clear: both;
 }
 
 .subject h3 {
@@ -78,8 +79,14 @@
     color: #000000;
 }
 
+.group {
+    text-align: left;
+    color: #444444;
+    padding-left: 150px;
+}
+
 .group3 {
-    width: 31.5%;
+    width: 31%;
     float: left;
     padding-left: 10px;
     padding-right: 10px;
@@ -92,15 +99,11 @@
     color: #444444;
 }
 
-.group1 {
-    color: #444444;
-}
-
 .year {
     color: #00005C;
     font-weight: bold;
     font-size: 25px;
-    text-align: center;
+    padding-top: 10px;
 }
 
 .courseID {
