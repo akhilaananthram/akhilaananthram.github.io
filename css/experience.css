@@ -9,6 +9,10 @@
     color: #000000;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .job1 {
 	padding-top: 20px;
     padding-left: 100px;
