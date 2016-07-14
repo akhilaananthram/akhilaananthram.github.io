@@ -1,0 +1,17 @@
+.project .details {
+	padding-bottom: 20px;
+    float: right;
+    /*padding-left: 200px;
+    margin-left: 5px;*/
+}
+
+.project img {
+    display: inline-block;
+    float: left; 
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100%;
+    vertical-align: middle;
+    height: 100%;
+    border: 2px solid;
+}
