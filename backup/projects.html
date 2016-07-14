@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Akhila Ananthram</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <header>
+      <h1 id="vanity"><a href="./index.html">Akhila Ananthram</a></h1>
+      <hr>
+      <ul id="nav">
+        <li><h2><a href="./index.html">About Me</a></h2></li>
+        <li><h2><a href="./experience.html">Experience</a></h2></li>
+        <li><h2><a href="./projects.html" class="selected">Projects</a></h2></li>
+      </ul>
+    </header>
+
+    <div class="contentArea">
+      <h2 class="category">Outside</h2>
+
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">Analysis of the Anti-Vaccine Movement through Social Media</h3>
+          <p>This project was for the Data Science Hackathon at Cornell Tech.  My team and I wanted to see what we could learn about the anti-vaccine movement through social media, specifically Twitter.  We collected tweets from the past 10 days related to the movement and created a network graph of the users, hashtags, and linked websites.  Nodes were connected if the users followed each other, a user mentioning a topic, or two topics in the same tweet. As we were trying to identify the two sides of the movement (for and against), we clustered the graph.  To actually learn about the two movements, we created summaries of the tweets, hashtags, and linked websites for both sides.  We were hoping to see if either side had a scientific base. We learned that the two sides are connected, so there was a bit of overlap in the summaries. Overall, this was an interesting study to see the role of social media in present day movements.  This project could be expanded to be a Twitter analytics tool.  To see the code, please click <a href="https://github.com/dhruvsinghal/VaccineStudy">here</a>.</p>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">Keystroke Dynamics on Smartphones</h3>
+          <p>This project was for Cornell Data Science.  I was on a team that wanted to create a smarter login for smartphones that takes into account keystrokes.  We collected data and created a classifier that would authenticate a user. To see the code, please click <a href="https://github.com/usandeep1/CDS_Keystroke_Dynamics">here</a>.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">EEG Signal Classification</h3>
+          <p>As a member of Cornell Data Science, I worked on the subteam that participated in the Kaggle competition to classify EEG signals for seizure prediction.  The repo can be found <a href="https://github.com/ifilonenko/CDS-EEG">here</a>.</p>
+        </div>
+      </div>
+
+      <h2 class="category">In-Class</h2>
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">Software Engineering - Fall 2015</h3>
+          <p>Our team of eight people designed and implemented a new scheduling system for the Ithaca Health Alliance to use at the Ithaca Free Clinic, for scheduling volunteer shifts. With the constraint of no funds available for hosting a web application, we designed a local python application which used Google Appscript and Forms to communicate with the volunteers. My role on the team was co-designing the storyboards and co-programming the UI/UX interface.</p>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">Artificial Intelligence Practicum - Fall 2014</h3>
+          <p>My partner, <a href="http://griffinbrodman.com">Griffin</a>, and I wanted to compare different forms of local search. Specifically, we looked at hill stepping and genetic algorithms in the setting of procedurally generating images using polygons.  For class, we implemented the project in Python.  To see our paper, please click <a href="img/AIProject.pdf">here</a>. Unfortunately, Python was too slow for our needs.  After the class was over, we started to implement the algorithms in C++.  This is still a work in progress. The repo can be found <a href="https://github.com/akhilaananthram/GeneticAlgorithm">here</a>.</p>
+        </div>
+      </div>
+      
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">Machine Learning - Fall 2014</h3>
+          <p>My team participated in the Kaggle competition, conducting sentiment analysis of movie review.  We compared multiple machine learning techniques.  To see our paper, please click <a href="img/MLProject.pdf">here</a>.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">Computational Linguistics - Spring 2014</h3>
+          <p>I analyzed phonations for speaker identification.  I looked at the actual waveforms of two speakers to see if it was possible to identify who was speaking using the F0 and spectral tilt values as features in an SVM.  For the code, please click <a href="https://github.com/akhilaananthram/Speaker_Identification">here</a>. You can see my results from the end of Sophomore year <a href="img/CompLingProject.pdf">here</a>.</p>
+        </div>
+      </div>
+
+      <div class="project">
+        <div class="details">
+          <h3 class="subcategory">Computer Vision - Fall 2013</h3>
+          <p>Some cool projects I've done include Image Scissors to semi-automatically cut out something from an image, a feature detector to compare images, a Panorama maker, and a pedestrian detector using Machine Learning. </p>
+        </div>
+      </div>
+
+      <p>Message me if you want to hear more about these or other in-class projects!</p><br>
+    </div>
+
+    <footer class="contact">
+      <ul>
+        <li><a href="mailto:asa225@cornell.edu"><img src="img/email.png" alt="Email"></a></li>
+        <li><a href="https://github.com/akhilaananthram"><img src="img/github.png" alt="Github"></a></li>
+        <li><a href="https://www.linkedin.com/in/akhilaananthram"><img src="img/linkedin.png" alt="LinkedIn"></a></li>
+        <li><a href="img/CV.pdf"><img src="img/resume.png" alt="Resume"></a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
