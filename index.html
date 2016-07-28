@@ -15,6 +15,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="assests/img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assests/img/favicon.ico" type="image/x-icon">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -27,7 +28,7 @@
                 <ul class="sidebar-nav nav">
 					
 					<li>
-                        <a href="#home"><img src="assests/img/favicon.png" class="img-responsive" style="width:160px"></a>
+                        <a href="#home"><img src="assests/img/logo.png" class="img-responsive" style="width:160px"></a>
                     </li>
 					
                     <li>
@@ -59,38 +60,138 @@
 
         <!-- Page content -->
         <div id="page-content-wrapper">
-            <div class="content-header" id="home">
+            <div class="content-header text-center" id="home">
 				<div class="toggle-icon"><a id="menu-toggle" href="#" class="glyphicon glyphicon-menu-hamburger btn-menu toggle"></a></div>
                 <h1>Akhila Ananthram</h1>
-				<p><a class="btn btn-default" href="#anch1">Know More</a></p>
             </div>
 
-            <div class="page-content inset" data-spy="scroll" data-target="#spy">
+            <div class="page-content inset" data-spy="scroll" data-target="#spy"  id="anch1">
                 <div class="row">
                     <div class="col-md-12 about-me">
-                        <legend id="anch1">About Me</legend>
+                        <legend>About Me</legend>
 						<p>Hi! My name is Akhila and I just graduated from Cornell University with a Masters of Engineering in Computer Science. More specifically, I am focused in computer vision, machine learning, and artificial intelligence! This August, I will be starting as a Software Engineer at Google!</p>
                         <p>Some of my hobbies include hanging out with friends, kickboxing, reading, and keeping up with my many TV shows. Some of the shows I love include Doctor Who, Game of Thrones, Bob's Burgers, South Park, Scrubs, and Gotham.</p>
 						
-						</div>
-                    <div class="col-md-12 experience">
-                        <legend id="anch2">Experience</legend>
-						<p>Experience we are going to add here</p>
 					</div>
-                    <div class="col-md-12 projects">
-                        <legend id="anch3">Projects</legend>
-						<h2>Outside</h2>
-						<h3 data-toggle="collapse" data-target="#project1">Analysis of the Anti-Vaccine Movement through Social Media</h3>
-						<p id="project1" class="collapse in">This project was for the Data Science Hackathon at Cornell Tech. My team and I wanted to see what we could learn about the anti-vaccine movement through social media, specifically Twitter. We collected tweets from the past 10 days related to the movement and created a network graph of the users, hashtags, and linked websites. Nodes were connected if the users followed each other, a user mentioning a topic, or two topics in the same tweet. As we were trying to identify the two sides of the movement (for and against), we clustered the graph. To actually learn about the two movements, we created summaries of the tweets, hashtags, and linked websites for both sides. We were hoping to see if either side had a scientific base. We learned that the two sides are connected, so there was a bit of overlap in the summaries. Overall, this was an interesting study to see the role of social media in present day movements. This project could be expanded to be a Twitter analytics tool. To see the code, please click here.ccc</p>
+					
+					
+					
+                    <div class="col-md-12 experience exp-list " id="anch2">
+                        <legend>Experience</legend>
+						<ul>
+							<li><a href="">Professional</a></li>
+							<li><a href="">Teaching</a></li>
+							<li><a href="">Coursework</a></li>
+						</ul>
+						
+					</div>
+					
+					
+                    <div class="col-md-12 projects text-left" id="anch3">
+                        <legend>Projects</legend>
+						
+						<ul class="nav nav-tabs">
+							<li class="active"><a data-toggle="tab" href="#outside">Outside</a></li>
+							<li><a data-toggle="tab" href="#inclass">In Class</a></li>
+							<li><a data-toggle="tab" href="#other">Other</a></li>
+						</ul>
+				
+						 <div class="tab-content">
+							<div id="outside" class="tab-pane fade in active">
+							
+						<h3 data-toggle="collapse" data-target="#project1a" class="project-title">Analysis of the Anti-Vaccine Movement through Social Media</h3>
+						<p id="project1a" class="collapse in">This project was for the Data Science Hackathon at Cornell Tech. My team and I wanted to see what we could learn about the anti-vaccine movement through social media, specifically Twitter. We collected tweets from the past 10 days related to the movement and created a network graph of the users, hashtags, and linked websites. Nodes were connected if the users followed each other, a user mentioning a topic, or two topics in the same tweet. As we were trying to identify the two sides of the movement (for and against), we clustered the graph. To actually learn about the two movements, we created summaries of the tweets, hashtags, and linked websites for both sides. We were hoping to see if either side had a scientific base. We learned that the two sides are connected, so there was a bit of overlap in the summaries. Overall, this was an interesting study to see the role of social media in present day movements. This project could be expanded to be a Twitter analytics tool. To see the code, please click here.ccc</p>
+						
 						<hr>
-						<h3 data-toggle="collapse" data-target="#project2">Keystroke Dynamics on Smartphones</h3>
-						<p id="project2" class="collapse in">This project was for Cornell Data Science. I was on a team that wanted to create a smarter login for smartphones that takes into account keystrokes. We collected data and created a classifier that would authenticate a user. To see the code, please click here.</p>
+						
+						<h3 data-toggle="collapse" data-target="#project2a" class="project-title">Keystroke Dynamics on Smartphones</h3>
+						<p id="project2a" class="collapse">This project was for Cornell Data Science. I was on a team that wanted to create a smarter login for smartphones that takes into account keystrokes. We collected data and created a classifier that would authenticate a user. To see the code, please click here.</p>
+						
 						<hr>
-						<h3 data-toggle="collapse" data-target="#project3">EEG Signal Classification</h3>
-						<p id="project3" class="collapse in">As a member of Cornell Data Science, I worked on the subteam that participated in the Kaggle competition to classify EEG signals for seizure prediction. The repo can be found here.</p>
-				   </div>
-                    <div class="col-md-12 contacts">
-                        <legend id="anch4">Contact Me</legend>
+						
+						<h3 data-toggle="collapse" data-target="#project3a" class="project-title">EEG Signal Classification</h3>
+						<p id="project3a" class="collapse">As a member of Cornell Data Science, I worked on the subteam that participated in the Kaggle competition to classify EEG signals for seizure prediction. The repo can be found here.</p>
+						
+					</div>
+						<div id="inclass" class="tab-pane fade">
+  
+						<h3 data-toggle="collapse" data-target="#project1b" class="project-title">Software Engineering - Fall 2015</h3>
+						<p id="project1b" class="collapse in">Our team of eight people designed and implemented a new scheduling system for the Ithaca Health Alliance to use at the Ithaca Free Clinic, for scheduling volunteer shifts. With the constraint of no funds available for hosting a web application, we designed a local python application which used Google Appscript and Forms to communicate with the volunteers. My role on the team was co-designing the storyboards and co-programming the UI/UX interface.</p>
+						
+						<hr>
+						
+						<h3 data-toggle="collapse" data-target="#project2b" class="project-title">Artificial Intelligence Practicum - Fall 2014</h3>
+						<p id="project2b" class="collapse">My partner, <a href="" target="_blank">Griffin</a>, and I wanted to compare different forms of local search. Specifically, we looked at hill stepping and genetic algorithms in the setting of procedurally generating images using polygons. For class, we implemented the project in Python. To see our paper, please click here. Unfortunately, Python was too slow for our needs. After the class was over, we started to implement the algorithms in C++. This is still a work in progress. The repo can be found here.</p>
+						
+						<hr>
+						
+						<h3 data-toggle="collapse" data-target="#project3b" class="project-title">Machine Learning - Fall 2014</h3>
+						<p id="project3b" class="collapse">My team participated in the Kaggle competition, conducting sentiment analysis of movie review. We compared multiple machine learning techniques. To see our paper, please click here.</p>
+						
+						<hr>
+						
+						<h3 data-toggle="collapse" data-target="#project4b" class="project-title">Computational Linguistics - Spring 2014</h3>
+						<p id="project4b" class="collapse">I analyzed phonations for speaker identification. I looked at the actual waveforms of two speakers to see if it was possible to identify who was speaking using the F0 and spectral tilt values as features in an SVM. For the code, please click here. You can see my results from the end of Sophomore year here.</p>
+						
+						<hr>	
+						
+						<h3 data-toggle="collapse" data-target="#project5b" class="project-title">Computer Vision - Fall 2013</h3>
+						<p id="project5b" class="collapse">Some cool projects I've done include Image Scissors to semi-automatically cut out something from an image, a feature detector to compare images, a Panorama maker, and a pedestrian detector using Machine Learning.</p>
+						
+					</div>
+						<div id="other" class="tab-pane fade">
+							<div class="other-projects">
+								<div class="col-md-4">
+								
+								<!--
+									<article class="caption">
+										<img class="caption-media" src="img/project.jpg" />
+												<div class="caption-overlay">
+													<h1 class="caption-overlay-title">Alaska</h1>
+														<p class="caption-overlay-content">
+														</p>
+													</div>
+											</article>
+										</div>
+								-->
+							
+								<article class="caption">
+									<img src="img/project.jpg" class="img-responsive">
+										<h3>Deep Spatial Autoencoder</h3>
+										<p><a href="" class="btn-primary btn-sm" data-toggle="modal" data-target="#g-data-1">Read More</a></p>
+										
+								</article>
+							</div>
+							
+							<div class="col-md-4">
+								<article class="caption">
+									<img src="img/project.jpg" class="img-responsive">
+									<h3>Use of Synthetic Images in Training Convolutional Neural Networks</h3>
+									<p><a href="" class="btn-primary btn-sm" data-toggle="modal" data-target="#g-data-2">Read More</a></p>
+								</article>
+							</div>
+
+							<div class="col-md-4">
+								<article class="caption">
+									<img src="img/project.jpg" class="img-responsive">
+									<h3>Analysis of Anti-Vaccine Movement through Social Media</h3>
+									<p><a href="" class="btn-primary btn-sm" data-toggle="modal" data-target="#g-data-3">Read More</a></p>
+								</article>
+							</div>
+						
+						</div>
+					</div>
+				</div>
+
+
+				
+						
+						
+						
+						
+				  </div>
+                    <div class="col-md-12 contacts" id="anch4">
+                        <legend>Contact Me</legend>
 						<p>Feel free to message me if you want to talk about CV, ML, AI or even one of the shows I follow!</p>
 							<ul class="social">
 								<li><a href="mailto:asa225@cornell.edu" target="_top" ><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
@@ -105,11 +206,212 @@
         </div>
 
     </div>
-	</div>
+
 	
-	<script src="assests/js/jquery.js"></script>
-	<script src="assests/bootstrap/js/bootstrap.min.js"></script>
 	<script src="assests/js/custom.js"></script>
+	<script src="assests/bootstrap/js/bootstrap.min.js"></script>
 	
+	<div class="modal fade" id="g-data-1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Deep Spatial Autoencoder</h4>
+        </div>
+        <div class="modal-body">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-github" aria-hidden="true"></i> Repository:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<a href="https://github.com/akhilaananthram/gatlin-neural-networks" target="_blank">Github</a>
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-user" aria-hidden="true"></i> With Whom:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					CS 6751 – Robot Manipulation
+				</div>
+				
+			</div>
+			
+			
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-clock-o" aria-hidden="true"></i> When:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<i class="fa fa-leaf" aria-hidden="true"></i> Spring 2016
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					Description:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+			To extend the torque neural network made by a fellow classmate,
+			I made a deep spatial autoencoder based on the work by Chelsea Finn et al.
+			The goal was to take a blind robot and give it vision by automatically constructing the state-space directly from camera images and perform visuomotor learning. 
+			It takes an image and encodes the positions of relevant objects in the world using Cartesian coordinates, generating a state-space.  
+			Over time, as the objects move, the coordinates change.  The autoencoder takes the full-resolution RGB image and generate a low-dimensional, dense vector.  
+			Unlike most autoencoders, this one encodes spatial feature locations instead of the actual feature values, as a way of representing the object’s location.
+			This can be used as a representation of the state-space and is trained simultaneously with a neural network with an additional loss function.  
+			This was part of a larger group project.
+				</div>
+			</div>
+			
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  <div class="modal fade" id="g-data-2" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Use of Synthetic Images in Training Convolutional Neural Networks</h4>
+        </div>
+        <div class="modal-body">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-github" aria-hidden="true"></i> Repository:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					Private
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-user" aria-hidden="true"></i> With Whom:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					Cornell’s Graphics and Vision group
+				</div>
+				
+			</div>
+			
+			
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-clock-o" aria-hidden="true"></i> When:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<i class="fa fa-leaf" aria-hidden="true"></i> Fall 2015 – Spring 2016
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					Description:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					We built and trained a deep network to learn an embedding using synthesized image data generated using iconic images of products and various backgrounds to see if synthesized data can improve the network.
+					Training a deep convolutional neural network (CNN) requires a lot of images, which can be expensive and time-consuming to acquire.  
+					We attempted to obtain feasible results with our synthesized data, which can be generated cheaply and efficiently.
+					We used iconic images of the products as ''anchors'' in our embedding, and synthesized new images by compositing the iconic image onto a background photograph.
+					For training the network, we generated pairs of positive and negative examples for each iconic image with the synthetic images, and evaluated progress with both a triplet loss function and contrastive loss.
+					We used GoogLeNet to generate the embedding for each loss function.We attempted to use the triplet loss and contrastive loss to separate dissimilar embeddings and cluster similar embeddings, both of which measure similarity with Euclidean distances.
+					Our ultimate goal was to show that training a CNN to learn an embedding can be made cost-effective in time and monetary resources while still achieving high classification accuracy.
+				</div>
+			</div>
+			
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  <div class="modal fade" id="g-data-3" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Analysis of Anti-Vaccine Movement through Social Media</h4>
+        </div>
+        <div class="modal-body">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-github" aria-hidden="true"></i> Repository:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<a href="https://github.com/dhruvsinghal/VaccineStudy" target="_blank">Github</a>
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-user" aria-hidden="true"></i> With Whom:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					Data Science Hackathon
+				</div>
+				
+			</div>
+			
+			
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+				<i class="fa fa-clock-o" aria-hidden="true"></i> When:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+					<i class="fa fa-leaf" aria-hidden="true"></i> March 8, 2015
+				</div>
+				
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-3">
+					Description:
+				</div>
+				<div class="col-lg-9 col-md-9 col-sm-9">
+			My team and I wanted to see what we could learn about the anti-vaccine movement through social media, specifically Twitter.
+			We collected tweets from a 10 day period related to the movement and created a network graph of the users, hashtags, and linked websites. 
+			Nodes were connected if the users followed each other, a user mentioned a topic, or two topics were in the same tweet. 
+			As we were trying to identify the two sides of the movement (for and against), we clustered the graph using spectral clustering.
+			To actually learn about the two movements, we created summaries of the tweets, hashtags, and linked websites for both sides.
+			We were hoping to see if either side had a scientific base. We learned that the two sides are connected, so there was a bit of overlap in the summaries.
+			Overall, this was an interesting study to see the role of social media in present day movements.
+				</div>
+			</div>
+			
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 </body>
 </html>

@@ -25,6 +25,15 @@
 
 $(".collapse").collapse()
 
+$(document).ready(function() {
+    var $lis=$('#mainmenu > li');
+    $lis.css({backgroundColor:'transparent !important'});
+    $lis.hover(function() {
+       $(this).animate({backgroundColor:'#2E8AE5'}, 'slow');
+    });
+});
+
+
 
 
 
