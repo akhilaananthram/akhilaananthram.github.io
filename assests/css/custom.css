@@ -6,13 +6,13 @@
 html,body{font-family:'Droid Serif',serif;}
 legend{
 	font-size:36px;
-	color:#14b9ff;
+	color:#00005C;
 	border-left:2px solid #444444;
 	padding-left:14px;
 	border-bottom:transparent;
 	}
 a:focus{outline:0;}
-a{color:#14b9ff;}
+a{color:#00005C;}
 .social {list-style:outside none none;margin:0;padding:0;}
 .social li{display: inline-block;}
 .social li a{
@@ -26,11 +26,11 @@ a{color:#14b9ff;}
 li.active{background:transparent;}
 
 .btn-primary {
-	background-color: #14b9ff;
+	background-color: #00005C;
 	border-color:transparent;
 	}
 
-.modal-header{background:#14b9ff;}	
+.modal-header{background:#00005C;}	
 .modal-title{color:#fff;}
 .modal-body >.row {margin-bottom:30px;}
 
@@ -47,7 +47,7 @@ li.active{background:transparent;}
 
 .social li a:link {color:#333333;}
 .social li a:hover {
-	color:#14b9ff;
+	color:#00005C;
 	cursor:pointer;
 	-webkit-transition: all ease-in-out .6s;
 	-moz-transition: all ease-in-out .6s;
@@ -67,13 +67,13 @@ li.active{background:transparent;}
   overflow-y: auto;
   z-index: 1000;
   transition: all 0.4s ease 0s;
-  background-color: #14B9FF;
+  background-color:#00005C;
 }
 
 #wrapper.active {padding-left:0;}
 #wrapper.active #sidebar-wrapper {left: 0;}
 #page-content-wrapper {max-width: 100%;}
-
+#00005C
 
 /*Sidebar Navigation*/
 .sidebar-nav {
@@ -171,7 +171,7 @@ li.active{background:transparent;}
 	
 .content-header{height:300px;}
 .content-header h1 {
-	color:#14b9ff;
+	color:#00005C;
 	font-size:50px;
 	padding-top:50px;
 	display: inline-block;	
@@ -191,7 +191,7 @@ li.active{background:transparent;}
 .exp-list li{
 	list-style:none;
 	display:inline;
-	background-color:#14b9ff;
+	background-color:#00005C;
 	color:#fff;
 	padding:10px;
 	margin:15px;
@@ -210,7 +210,7 @@ li.active{background:transparent;}
     -webkit-font-smoothing: antialiased;
 	}
 .projects{padding:120px;}
-.project-title{background:#14b9ff;padding:10px;color:#fff;}
+.project-title{background:#00005C;padding:10px;color:#fff;}
 .caption img{margin-bottom:30px;}
 .caption h3{
 	font-size:15px;
@@ -229,7 +229,7 @@ li.active{background:transparent;}
 /*Button Configuration*/
 
 .btn-menu{
-	color:#14b9ff;
+	color:#00005C;
 	font-size:20px;
 	top:20px;
 	} 
